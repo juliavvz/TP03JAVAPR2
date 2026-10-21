@@ -13,6 +13,10 @@ Solução em Java Swing para o trabalho prático da disciplina **CBTLPR2 (Java)*
 - Versão de seleção de sexo usando `JRadioButton`.
 - Validação dos campos obrigatórios e da idade.
 
+## Link do vídeo 
+
+- https://youtu.be/EflJaBbhquI
+
 ## Requisitos
 
 - Java JDK 17 ou superior.
