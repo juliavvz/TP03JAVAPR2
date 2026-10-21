@@ -3,13 +3,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class CalculadoraSimples extends JFrame implements ActionListener {
+public class calculadora extends JFrame implements ActionListener {
     private JTextField display;
     private double valorAtual = 0;
     private String operador = "";
     private boolean novoNumero = true;
 
-    public CalculadoraSimples() {
+    public calculadora() {
         // Configuração do Form (Janela)
         setTitle("Calculadora");
         setSize(250, 300);
@@ -101,7 +101,7 @@ public class CalculadoraSimples extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new CalculadoraSimples().setVisible(true);
+            new calculadora().setVisible(true);
         });
     }
 }
